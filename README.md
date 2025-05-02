@@ -47,14 +47,15 @@ Esse é um chatbot para o Telegram desenvolvido em Python, que tem objetivo de a
          ```          
 
     2. Instale as dependências: 
-    ``bash
+    ```bash
         pip install -r requirements.txt
-    ```
+        pip install python-dotenv
+    ````
     
     3. Crie um arquivo `.env` para armazenar o token do seu bot:
     - Na raiz do projeto, crie um arquivo chamado `.env` e adicione o seguinte conteúdo:
         ```
-        TELEGRAM_BOT_TOKEN=seu_token_aqui
+        BOTTOKEN=seu_token_aqui
         ```
 
     4. Certifique-se de que o arquivo `.env` está listado no `.gitignore` para evitar que ele seja enviado ao GitHub.
