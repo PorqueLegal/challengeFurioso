@@ -28,7 +28,7 @@ Esse é um chatbot para o Telegram desenvolvido em Python, que tem objetivo de a
 
 ## Requisitos
 	Para funcionar o bot, é necessário instalar em seu sistema os itens:
-	- pip install python-telegram-bot --upgrade
+	- pip install python-telegram-bot ou pip install python-telegram-bot --upgrade
     - pip install beautifulsoup4
     - pip install -r requirements.txt
     - pip install requests
@@ -46,26 +46,18 @@ Esse é um chatbot para o Telegram desenvolvido em Python, que tem objetivo de a
             git clone https://github.com/PorqueLegal/challengeFurioso.git
          ```          
 
-    2. Crie e ative um ambiente virtual (opcional, mas recomendado):
-        ``bash
-            python -m venv venv
-            source venv/bin/activate  # No Windows, use: venv\Scripts\activate
-        ```
-   
-
-    3. Instale as dependências: 
+    2. Instale as dependências: 
     ``bash
         pip install -r requirements.txt
     ```
     
-
-    4. Crie um arquivo `.env` para armazenar o token do seu bot:
+    3. Crie um arquivo `.env` para armazenar o token do seu bot:
     - Na raiz do projeto, crie um arquivo chamado `.env` e adicione o seguinte conteúdo:
         ```
         TELEGRAM_BOT_TOKEN=seu_token_aqui
         ```
 
-    5. Certifique-se de que o arquivo `.env` está listado no `.gitignore` para evitar que ele seja enviado ao GitHub.
+    4. Certifique-se de que o arquivo `.env` está listado no `.gitignore` para evitar que ele seja enviado ao GitHub.
 
 ## Como rodar os testes:
     1. Execute o bot: 
