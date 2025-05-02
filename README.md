@@ -74,7 +74,7 @@ Esse é um chatbot para o Telegram desenvolvido em Python, que tem objetivo de a
     1. Execute o bot: 
     
         ```bash
-            telegram_chatbot.py
+            python telegram_chatbot.py
         ```
 
     2. No Telegram, inicie uma conversa com o seu bot e envie comandos para testar.
