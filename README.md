@@ -64,7 +64,7 @@ Esse é um chatbot para o Telegram desenvolvido em Python, que tem objetivo de a
                 BOTTOKEN=fafawir-9231qir90q
             ```
 
-    4. Vá no telegrama_chat.py e coloque no terminal esse comando:
+    4. Vá no telegram_chat.py e coloque no terminal esse comando:
         ```bash
             pip install -r requirements.txt
             pip install python-dotenv
