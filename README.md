@@ -40,11 +40,11 @@ Esse é um chatbot para o Telegram desenvolvido em Python, que tem objetivo de a
 	- Bootstrap 5.3.5
 
 ## Como rodar o projeto:
+    Baixe o Github antes de fazer as seguintes
     1. Clone este repositório para o seu computador: 
         ```bash
             git clone https://github.com/PorqueLegal/challengeFurioso.git
-            cd challengeFurioso
-         ```
+         ```          
 
     2. Crie e ative um ambiente virtual (opcional, mas recomendado):
         ``bash
