@@ -1,4 +1,4 @@
-# Documento do Chatbot 
+# Documento do Chatbot 📜
 ## Introdução
 Esse é um chatbot para o Telegram desenvolvido em Python, que tem objetivo de auxiliar os torcedores da Furia de CS a ficar mais atualizados sobre o cenário. Ele utiliza a Api do Telegram para acontecer a interação com os usuários.
  
@@ -49,16 +49,26 @@ Esse é um chatbot para o Telegram desenvolvido em Python, que tem objetivo de a
     2. Instale as dependências: 
     ```bash
         pip install -r requirements.txt
-        pip install python-dotenv
     ````
-    
-    3. Crie um arquivo `.env` para armazenar o token do seu bot:
-    - Na raiz do projeto, crie um arquivo chamado `.env` e adicione o seguinte conteúdo:
-        ```
-        BOTTOKEN=seu_token_aqui
-        ```
+    3. Agora entre no telegram e pesquise BotFather e siga os seguintes passos a passos:
+        +	Digite /start
+        +	Digite /newbot
+        +	Digite FuriinhoBot
+        +	Agora escolha um username para o bot com a palavra bot no final
+        +	Agora copie o Token, e crie um arquivo .env e digite:
+            ```
+                BOTTOKEN=seu_token_aqui
+            ```
+            - Exemplo:
+            ```
+                BOTTOKEN=fafawir-9231qir90q
+            ```
 
-    4. Certifique-se de que o arquivo `.env` está listado no `.gitignore` para evitar que ele seja enviado ao GitHub.
+    4. Vá no telegrama_chat.py e coloque no terminal esse comando:
+        ```bash
+            pip install -r requirements.txt
+            pip install python-dotenv
+         ````
 
 ## Como rodar os testes:
     1. Execute o bot: 
