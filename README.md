@@ -109,5 +109,5 @@ Baixe o Github antes de fazer os seguintes passos:
 ## Próximos passos:
 - Colocar mais informações dos jogadores, como KD e replays;
 - Colocar notificação para informar o usuário das novidades.
-- Colocar mais variavel para complementar as informações do usuário, como desde quanto ele acompanha a Furia e qual jogador favorito;
+- Colocar mais variaveis para complementar as informações do usuário, como desde quanto ele acompanha a Furia e qual jogador favorito;
 - Colocar em um servidor online.
