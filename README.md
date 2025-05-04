@@ -73,6 +73,7 @@ Baixe o Github antes de fazer os seguintes passos:
 	        	```
      
             > Dicas:
+
             >   - Para colocar uma foto, no BotFather digite `/setuserpic`, depois baixe a imagem `fotodoFuriinhos.png` no arquivo do git e coloque no BotFather
             >   - Para linkar o bot com o site, pegue o link do bot criado, e cole no `<a class="btn a" href="https://web.telegram.org/k/cole aqui seu link" target="_blank"><i class="bi bi-chat-dots"></i></a>` e no `<button class="btn-inicio"><a href= "https://web.telegram.org/k/cole aqui seu link" target="_blank">Clique para comecar!</a></button>` no arquivo 'index.html'
 
